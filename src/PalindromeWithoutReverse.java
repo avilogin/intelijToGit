@@ -2,13 +2,14 @@ package src;
 
 import java.util.Scanner;
 
-public class reverseString02 {
+public class PalindromeWithoutReverse {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Provide a string");
 
         String name = sc.next();
+        String Original_str = name;
 
         String rev = "";
 
@@ -17,7 +18,18 @@ public class reverseString02 {
             rev = rev+name.charAt(i);
         }
 
-        System.out.println(rev);
+        boolean result = Original_str.equalsIgnoreCase(rev);
+
+        if (result)
+        {
+            System.out.println("It is a Palindrome");
+        }
+        else
+        {
+            System.out.println("It is not a Palindrome");
+        }
+
+
 
 
 
