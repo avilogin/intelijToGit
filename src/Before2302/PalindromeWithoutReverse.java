@@ -11,27 +11,36 @@ public class PalindromeWithoutReverse {
         String name = sc.next();
         String Original_str = name;
 
-        String rev = "";
-
-        for (int i =name.length()-1;i>=0;i--)
+        if (name ==null)
         {
-            rev = rev+name.charAt(i);
+            System.out.println("String is not Pallindrome");
         }
-
-        boolean result = Original_str.equalsIgnoreCase(rev);
-
-        if (result)
+        else if (name.length()<=1)
         {
-            System.out.println("It is a Palindrome");
+            System.out.println("String is Pallondrome");
         }
         else
         {
-            System.out.println("It is not a Palindrome");
+            String rev = "";
+
+            for (int i =name.length()-1;i>=0;i--)
+            {
+                rev = rev+name.charAt(i);
+            }
+
+            boolean result = Original_str.equalsIgnoreCase(rev);
+
+
+            if (result)
+            {
+                System.out.println("It is a Palindrome");
+            }
+            else
+            {
+                System.out.println("It is not a Palindrome");
+            }
+
         }
-
-
-
-
 
     }
     }

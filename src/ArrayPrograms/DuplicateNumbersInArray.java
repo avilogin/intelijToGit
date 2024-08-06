@@ -11,7 +11,7 @@ public class DuplicateNumbersInArray {
             {
                 if (arr[i]==arr[j])
                 {
-                    System.out.println(arr[j]);
+                    System.out.println(arr[i]);
                 }
             }
         }
