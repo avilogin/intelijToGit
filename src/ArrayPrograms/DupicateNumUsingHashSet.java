@@ -11,7 +11,7 @@ public class DupicateNumUsingHashSet {
 
         Set<Integer> hs = new HashSet<Integer>();
 
-        for(int el : arr)
+        for(Integer el : arr)
         {
             if(!hs.add(el))
             {
