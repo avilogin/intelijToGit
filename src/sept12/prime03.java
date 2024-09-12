@@ -22,7 +22,8 @@ else if(num>0)
             break;
         }
     }
-    if (prime) {
+    if (prime)
+    {
         System.out.println(num + " is Prime");
     } else {
         System.out.println(num + " is not Prime");
