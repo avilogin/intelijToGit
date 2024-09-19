@@ -1,12 +1,12 @@
 package src.ArrayPrograms;
 
 import java.util.HashMap;
-
+import java.util.Map;
 public class DuplicateIntegerUsingHashMap {
     public static void main(String[] args) {
         //int [] arr = new int [] {1, 2, 3, 4, 5,66,33,88,55,22,44,77,5,9,2,5,7,88,22};
         int arr[]  = {1,2,3,4,6,2,5,4,6,7,3,1};
-        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> hm = new HashMap<Integer, Integer>();
 
         for(int ch : arr)
         {

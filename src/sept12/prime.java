@@ -21,7 +21,7 @@ public class prime {
                prime = prime + i + " ";
             }
         }
-        System.out.println("Prime numbaers are ");
+        System.out.println("Prime Numbers are ");
         System.out.println(prime);
 
     }

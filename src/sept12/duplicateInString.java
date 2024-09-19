@@ -20,8 +20,10 @@ public class duplicateInString {
             int[] countArray = new int[256]; // ASCII has 256 characters
 
             // Count the frequency of each character in the input string
-            for (int i = 0; i < input.length(); i++) {
+            for (int i = 0; i < input.length(); i++)
+            {
                 countArray[input.charAt(i)]++;
+                System.out.println(countArray[input.charAt(i)]);
             }
 
             System.out.println("Duplicate characters in the string are:");
