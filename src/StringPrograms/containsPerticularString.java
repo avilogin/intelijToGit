@@ -9,7 +9,7 @@ public class containsPerticularString {
         String[] sat = {"hi","i","am","the","good","Boy"};
 
         List<String> ss = Arrays.asList(sat);
-        Boolean value =  (ss.contains("good"));
+        Boolean value =  ss.contains("good");
         if (value)
         {
             System.out.println("String is present");

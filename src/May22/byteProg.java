@@ -6,6 +6,6 @@ public class byteProg {
         byte a=10;
         byte b=10;
         int c = a+b;
-        System.out.println(b);
+        System.out.println(c);
     }
 }

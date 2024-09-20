@@ -11,7 +11,8 @@ public class NoOfCharInString {
         HashMap<Character, Integer> hash_map = new HashMap<>();
         char[] strArray = str.toCharArray();
 
-        for (char c : strArray) {
+        for (char c : strArray)
+        {
             if (hash_map.containsKey(c)) {
                 hash_map.put(c, hash_map.get(c) + 1);
             }

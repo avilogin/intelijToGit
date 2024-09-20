@@ -2,7 +2,7 @@ package src.ArrayPrograms;
 
 public class FrequencyOfNumbersInArray {
     public static void main (String[] args) {
-        int [] arr = new int[]{5, 8, 5, 7, 8, 10,1,7,1,10};
+        int [] arr = new int[]{5, 8, 5, 7, 8, 10,1,7,1,10,5,5,8,10};
         int [] freq =  new int[arr.length];
         int visited = -1;
         for(int i =0;i<arr.length;i++)

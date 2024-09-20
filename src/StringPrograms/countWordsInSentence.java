@@ -1,6 +1,7 @@
 package src.StringPrograms;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class countWordsInSentence {
@@ -8,10 +9,11 @@ public class countWordsInSentence {
         String main = "Hi my name is avijeet and avijeet is my name";
         String[] str_arr = main.split(" ");
 
-        Map<String, Integer> map = new HashMap();
+        Map<String, Integer> map = new LinkedHashMap<>();
 
         for (String o: str_arr)
         {
+            System.out.println(map.get(o));
             Integer count = map.get(o);
             if(count== null)
             {
