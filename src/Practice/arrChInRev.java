@@ -5,6 +5,7 @@ public class arrChInRev {
         char arr[] = {'A','B','C','D','E','F','G','H','I'};
         int left = 0, right = arr.length-1;
         char temp;
+
         while(left<right)
         {
           temp =   arr[left];
@@ -17,5 +18,7 @@ public class arrChInRev {
         {
             System.out.print(arr[i]+ " ");
         }
+
+
     }
 }

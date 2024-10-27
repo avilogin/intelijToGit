@@ -11,8 +11,7 @@ public class containsPerticularString02 {
 
         List<String> arr_list =Arrays.asList(str_arr);
 
-        boolean result = arr_list.contains(find);
-        if (result)
+        if (arr_list.contains(find))
         {
             System.out.println("'"+find+"'"+" is found in the string");
         }
