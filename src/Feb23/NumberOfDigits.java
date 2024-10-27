@@ -10,17 +10,17 @@ public class NumberOfDigits {
      */
 
     public static void main(String[] args) {
-        Integer count =0,rem;
+         long count=0;
         Scanner sc =  new Scanner(System.in);
         System.out.println("Provide a Number");
-        Integer num =  sc.nextInt();
+        long num =  sc.nextInt();
 
-        for (int i =1;i<=num;i++)
-        {
-            rem = num%10;
-            count++;
-        }
-        System.out.println(count);
+       while (num!=0)
+       {
+           num = num/10;
+           count++;
+       }
+        System.out.println("Count is "+count);
 
     }
 }

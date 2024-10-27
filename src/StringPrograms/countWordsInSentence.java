@@ -6,8 +6,9 @@ import java.util.Map;
 
 public class countWordsInSentence {
     public static void main(String[] args) {
-        String main = "Hi my name is avijeet and avijeet is my name";
-        String[] str_arr = main.split(" ");
+        String main = "Hi my name is avijeet and avijeet is my name hi";
+        String low_str = main.toLowerCase();
+        String[] str_arr = low_str.split(" ");
 
         Map<String, Integer> map = new LinkedHashMap<>();
 
