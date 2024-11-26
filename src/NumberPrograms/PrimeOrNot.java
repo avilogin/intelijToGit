@@ -8,7 +8,6 @@ public class PrimeOrNot {
         System.out.print("Provide a Number = ");
         int num = sc.nextInt();
         boolean prime = true;
-
         if (num==0)
         {
             System.out.println("Number is Zero");
@@ -22,15 +21,12 @@ public class PrimeOrNot {
                     prime = false;
                     break;
                 }
-
-
             }
             if (prime)
             {
                 System.out.println(num+" is Prime");
             }
             else
-
             {
                 System.out.println(num+" is not Prime");
             }

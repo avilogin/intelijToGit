@@ -11,7 +11,6 @@ public class DuplicateCharUsingHashMap {
         String string = sc.next();
         char[] charArr = string.toCharArray();
         HashMap<Character,Integer> mainMap = new HashMap<Character,Integer>();
-
         for (Character ch : charArr)
         {
             if (mainMap.containsKey(ch))
@@ -24,7 +23,6 @@ public class DuplicateCharUsingHashMap {
             }
 
         }
-
         for (Character ch :mainMap.keySet())
         {
             if (mainMap.get(ch)>1)

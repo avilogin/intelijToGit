@@ -16,20 +16,16 @@ public class BreakAndRevJoinString {
             fir_Rev = fir_Rev+first.charAt(firLen);
             firLen--;
         }
-
         String las_Rev = "";
         while(lastLen>=0)
         {
             las_Rev = las_Rev+last.charAt(lastLen);
             lastLen--;
         }
-
-
         System.out.println(first + "---"+fir_Rev);
         System.out.println(last + "---"+las_Rev);
         finalStr = fir_Rev.concat(las_Rev);
         //finalStr = fir_Rev+las_Rev;
-
         System.out.println("Final String is "+finalStr);
 
 
