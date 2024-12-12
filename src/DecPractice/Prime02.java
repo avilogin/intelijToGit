@@ -28,11 +28,11 @@ public class Prime02 {
 
             if (prime)
             {
-                System.out.println("Prime Number");
+                System.out.println(num+ " is Prime Number");
             }
             else
             {
-                System.out.println("Not Prime Number");
+                System.out.println(num+" is Not Prime Number");
             }
         }
     }
