@@ -1,5 +1,4 @@
 package src.JavaConcepts;
 
-public class classtest {
-
+public class testtest {
 }
