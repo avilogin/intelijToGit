@@ -4,5 +4,6 @@ public class test002 {
     public static void main(String[] args) {
         System.out.println("Test successful");
         System.out.println("Test again");
+        System.out.println("Test again");
     }
 }
